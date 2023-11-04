@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+ <h1 id="title">Registration form</h1>
+ <p id="description"><i>Please fill out this form with the required information</i></p>
+ <form id="survey-form">
+   <div  class="container">
+   <fieldset>
+     <legend>Personal Information</legend>
+     <label id="name-label">Legal Name:
+        <br>
+        <input id="name" name="first-name" type="text" placeholder="Elizabeth Williams"  required></label>
+        <br>
+     <label id="email-label">Email:
+        <br>
+        <input id="email" name="email" type="email" placeholder="@gmail.com" required></label>
+     <br>
+     <label id="number-label">Legal Age:
+        <br>
+        <input id="number" name="number" type="number" min="14" max="65" placeholder="21" required></label>
+        <br>
+     <label for="dropdown">Way to rich you:
+        <br>
+     <select id="dropdown" name="dropdown">
+        <option value="">(select one)</option>
+        <option value="1">I'm not talkative, email me.</option>
+        <option value="2">Accept calls after email.</option>
+        <option value="3">Quick call at day time.</option>
+        <option value="4">I'm way talkative, call me!</option>
+        </select>
+        </label>
+        </fieldset>
+        <fieldset>
+        <legend>Gender</legend>
+        <label for="male">
+          <input id="male" type="radio" name="gender" class="inline" value="male">Male
+          </label>
+          <label for="female"><input id="female" type="radio" name="gender" class="inline" value="female">Female</label></fieldset>
+          <fieldset>
+            <legend>Other Information</legend>
+            <label for="visa"><input id="visa" type="checkbox" value="visa" >Valid Visa</label> 
+            <label for="degree"><input id="degree" type="checkbox" value="degree">Bachelor Degree</label>
+            <label for="local"><input id="local" type="checkbox" value="local">Willing to Relocate</label> 
+            <label for="license"><input id="lisence" type="checkbox" value="license">Driver license</label>
+            <br>
+<label for="bio"><span id="biospan">Provide a cover letter:</span></label></label><textarea id="bio" name="bio" rows="7" cols="40" placeholder="I am excelent team player..."></textarea>
+        </label>
+         </fieldset>
+         <br>
+         <button type="submit" id="submit" value="submit">Submit!</button>
+         </div>
+     
+        </form>
+       
+    </body>
+   </html>

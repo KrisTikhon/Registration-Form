@@ -1,0 +1,77 @@
+body {
+    font-size: 1.1em;
+    font-family: Young serif, sans-serif;
+    background-size: cover;
+    background-image: url('https://img.freepik.com/free-photo/side-view-cropped-unrecognizable-business-people-working-common-desk_1098-20474.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% contain;
+}
+#description {
+    text-align: center;
+}
+label {
+    display: block;
+    margin: 0.5rem 0;
+    }
+  #title {
+      text-align: center;
+    margin-top: 50px;
+    }
+  #email-label {
+      padding: 0 ;
+    }
+  
+   legend {
+     font-size: 1.4em;
+   }
+   .container {
+      background-color: rgba(51, 79, 59, 0.688);
+      padding: 30px;
+      margin: 0 20% 0 20%;
+      position: relative;
+      align-items: center;
+      justify-content: center;
+   }
+   
+   select {
+    border: 2px solid black;
+    padding: 10px;
+    width: 100%;
+   }
+   #bio {
+    border: 2px solid black;
+    width: 100%;
+   }
+   #submit { 
+     background-color: rgb(120, 164, 120);
+    text-align: center;
+    align-items: center;
+   font-size: 1.2em;
+   width: 100%;
+    justify-content: center;
+   position: relative;
+}
+button {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+fieldset {
+  border: none;
+}
+#number {
+  border: 2px solid black;
+    padding: 10px;
+    width: 100%
+}
+#email {
+  border: 2px solid black;
+    padding: 10px;
+    width: 100%
+}
+#name {
+  border: 2px solid black;
+    padding: 10px;
+    width: 100%
+}
